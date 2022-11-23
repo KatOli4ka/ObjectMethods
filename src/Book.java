@@ -20,7 +20,6 @@ public class Book {
     public void setYearPublishing( int yearPublishing){
         this.yearPublishing = yearPublishing;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -28,7 +27,6 @@ public class Book {
         Book book = (Book) o;
         return yearPublishing == book.yearPublishing && Objects.equals(bookNames, book.bookNames) && Objects.equals(author, book.author);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(bookNames, yearPublishing, author);
