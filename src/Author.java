@@ -16,7 +16,6 @@ public class Author {
     public String toString() {
         return "Имя - " + this.name + ", фамилия - " + this.lastName;
     }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -24,7 +23,6 @@ public class Author {
         Author author = (Author) o;
         return Objects.equals(name, author.name) && Objects.equals(lastName, author.lastName);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(name, lastName);
