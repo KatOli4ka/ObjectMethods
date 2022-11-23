@@ -31,6 +31,8 @@ public class Main {
         System.out.println(dokkaebi.equals(dokkaebi1));
         System.out.println(mockingbird.hashCode());
         System.out.println(dokkaebi.hashCode());
+        System.out.println(harper.hashCode());
+        System.out.println(kim.hashCode());
     }
 
 }
